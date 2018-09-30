@@ -5,7 +5,7 @@ import random
 import pygame
 
 # Use BCM GPIO references
-# instead of physical pin numbers
+# instead of BCM pin numbers
 GPIO.setmode(GPIO.BCM)
 
 # Define GPIO to use on Pi
